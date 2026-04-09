@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2 align = "center">Please complete all the information below</h2>
+
+    <form height = "500" width = "1200" padding="20" action="" method="post">
+        <fieldset border="2">
+            <legend><b>Applicant Details</b></legend>
+            <br>
+
+            <label for="firstName">First Name:</label>
+            <input name="firstName" placeholder="First Name" type="text" >
+            <br><br>
+            <label for="lastName">Last Name:</label>
+            <input name="lastName" placeholder="Last Name" type="text">
+            <br>
+            <br>
+
+            <label for="email">Email:</label>
+            <input name="email" placeholder="Enter Email" type="email" >
+            <br>
+            <br>
+
+            <label for="gender">Gender</label><br><br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br><br>
+
+            <label for="contact">Contact:</label>
+            <input type="text" name="address"><br><br>
+
+            <label for="resume">Qualifications:</label>
+            <input type="file" name="resume">
+            <br>
+            <br>
+
+            <label for="join">Joining Date:</label>
+            <input type="date" name="join">
+            <br>
+            <br>
+
+            <label for="skills">Skills</label>
+            <input type="checkbox" name="skills" value="JS">JavaScript
+            <input type="checkbox" name="skills" value="JS">Java<br>
+            <input type="checkbox" name="skills" value="JS">React
+            <input type="checkbox" name="skills" value="JS">Express<br>
+            <input type="checkbox" name="skills" value="JS">Python
+            <input type="checkbox" name="skills" value="JS">SQL<br><br>
+
+            <label for="exp">Years of Experience</label>
+            <input type="range" name="exp"><br><br>
+
+            <label for="loc">Work Location</label>
+            <select name="loc" placeholder="--Default--">
+            </select><br><br>
+
+            <label for="address">Contact:</label>
+            <input type="text" name="address"><br><br>
+
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
